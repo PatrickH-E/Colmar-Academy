@@ -5,7 +5,7 @@ html{
 }
 
 .body {
-    font-family: 'Montserrat', serif, sans-serif;
+    font-family: 'Montserrat'
 }
 
 .header {
@@ -24,12 +24,15 @@ html{
     font-size: 20px;
     font-family: 'Montserrat';
     letter-spacing: 1px;
+    flex-direction: row;
+    
+    
 }
 
-.logo.jpg{
-    object-fit: fill;
-    height: 200px
+.logo-image {
+ 
 }
+
 
 .academy {
  font-weight: normal;
@@ -46,4 +49,48 @@ html{
     margin-left: auto;
     font-size: 18px;
     font-weight: lighter;
+    
+}
+
+.learn {
+    display: flex;
+    background-color: grey;
+    flex-direction: row;
+    height: auto;
+    min-height: 200px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.banner-img {
+    display: flex;
+    justify-content: left;
+    padding-right: 24px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    padding-left: 24px;
+    width: 100%;
+    
+}
+.learn-something {
+    display: flex;
+    color: black;
+    font-family: 'Montserrat';
+    flex-direction: column;
+    margin-left: 24px;
+    font-size: 50px;
+    width: 100%;
+}
+.lorem {
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+    font-family: inherit;
+    
+    
+}
+.start-button {
+    font-family: 'Montserrat';
+    background-color: black;
+    color:white;
 }
