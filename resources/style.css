@@ -118,3 +118,67 @@ html{
     height: 100%;
 }
 
+.doesnt-hurt {
+    display: inline-flex;
+    flex-wrap: wrap;
+    font-family: 'Montserrat';
+    background-color: white;
+    position: relative;
+}
+
+.information-main {
+    display: inline-flex;
+    min-width: 0;
+    flex-direction: column;
+    
+}
+
+.info-img {
+    width: 60%;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.practicing {
+    color: grey;
+    padding-top: 24px;
+    text-align: start;
+}
+
+.curabitur {
+    display:inline-block;
+    color: grey;
+    padding-bottom: 32px;
+    word-break: break-all;
+    
+}
+
+.img-panel {
+    display: inline-flex;
+    justify-content: right;
+    width: 40%;
+    margin-top: 500px;
+    
+}
+
+.images {
+    display: inline-flex;
+    height: auto;
+    width: 35%;
+    justify-content: right;
+    
+    
+}
+.guest {
+    background-color: grey;
+    color:white;
+    
+}
+
+.info-text {
+ display: flex;
+ justify-content: right;
+ 
+}
