@@ -141,17 +141,17 @@ html{
  font-size: 45px;
  font-weight: bold;
  padding-left: 24px;
- position: relative;
+ float: left;
+ width: 60%;
 }
 
 .curabitur {
-  font-size: 25px;
+  font-size: 23px;
   word-break: keep-all;
   width: 68%; 
   font-weight: 300; 
-  position: absolute;
-  top: 65px;
-  left: 24px;
+  margin-right: 50px;
+  width: 100%;
 }
 
 .strat {
@@ -160,50 +160,102 @@ html{
   font-weight: normal;
 }
 
-.image-panel {
- 
- 
-}
-
-.images {
- 
-}
-.guest {
-    
-    
-}
-
-.info-text {
- 
- 
- 
-}
-
-.first-img{
-
-}
-
 .one-image{
+    display: flex;
     float: left;
+    width: 35%;
+    height: auto;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+   
 }
 
 .first-text {
-    float: right;
+  float: right;
+  font-family: 'Montserrat';
+  padding-top: 8%;
+  padding-right: 12%;
 }
 
 .two-image {
+  display: flex;
   float: left;
+  width: 35%;
+  height: auto;
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .second-text {
-    float: right;
+  float: right;
+  font-family: 'Montserrat';
+  padding-top: 8%;
+  padding-right: 8%;
 }
 
 .guest-image{
-    float: left;
+ display: flex;
+ width: 35%;
+ height: auto; 
+ float: left;
+ padding-left: 16px;
+ padding-top: 16px;
+ padding-bottom: 16px;
 }
 
 .guest-text{
    float: right;
+   font-family: 'Montserrat';
+   padding-top: 8%;
+   padding-right: 8%;
 }
+.panel-header {
+ font-weight: 600; 
+ font-size: 25px;
+ line-height: 8px;
+ color: rgba(54, 54, 54, 0.92);
+}
+.keynote {
+  line-height: 1.8;
+  font-size: 16px;
+  color: rgba(54, 54, 54, 0.92);
+}
+.read-more {
+  font-size: 18px;
+  line-height: 8px;
+}
+
+.image-panel {
+ display: flex;
+ height: auto;
+ flex-direction: column;
+ width: 35%;
+ gap: 16px;
+ position: absolute;
+ top: 32px;
+ right: 20px;
+ border-left: solid;
+ border-left-color: rgba(54, 54, 54, 0.32);
+ border-left-width: thin;
+ padding-bottom: 10%; /*this line controls the border for this panel. It gives more padding to the panel, making the line longer or shorter.*/
+ overflow: hidden;
+}
+
+
+.guest {
+ background-color:rgba(54, 54, 54, 0.32); 
+    
+}
+.first-img {
+    border-bottom: solid;
+    border-bottom-color:rgba(54, 54, 54, 0.32);
+    border-bottom-width: thin;
+}
+
+
+
+
+
 
