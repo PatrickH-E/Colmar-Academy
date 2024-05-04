@@ -239,7 +239,7 @@ html{
  border-left: solid;
  border-left-color: rgba(54, 54, 54, 0.32);
  border-left-width: thin;
- padding-bottom: 10%; /*this line controls the border for this panel. It gives more padding to the panel, making the line longer or shorter.*/
+ padding-bottom: 11.26%; /*this line controls the border for this panel. It gives more padding to the panel, making the line longer or shorter.*/
  overflow: hidden;
 }
 
@@ -252,6 +252,135 @@ html{
     border-bottom: solid;
     border-bottom-color:rgba(54, 54, 54, 0.32);
     border-bottom-width: thin;
+}
+
+.start-learning{
+ background-color: rgba(54, 54, 54, 0.32);
+ display: flex;
+ margin-top: 23%;
+ text-align: center;
+ position: relative;
+ flex-wrap: wrap;
+ width: 100%;
+ 
+}
+
+.sl {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50px;
+  right: 780px;
+  
+}
+
+.learning-panel {
+  display: flex;
+  height: 50%;
+  flex-wrap: wrap;
+  width: 85%;
+  padding-left: 72px;
+  padding-right: 72px;
+  margin-top: 8%;
+  row-gap: 32px;
+  column-gap: 0px;
+}
+
+.software {
+  flex: 0 0 33.3333%;
+  background-color: white;
+  width: 30%;
+  padding-lef
+}
+
+.software-img {
+ height: auto;
+ width: 70%;
+ min-width: 0;
+ max-width: 70%;
+ 
+}
+
+.software-text {
+
+}
+
+.learning-header {
+
+}
+
+.courses {
+
+}
+
+.learning-copy {
+
+}
+
+.computer {
+  flex: 0 0 33.3333%;
+  
+}
+
+.computer-img {
+ height: auto;
+ width: 70%;
+}
+
+.computer-text{
+
+}
+
+.design {
+  flex: 0 0 33.3333%;
+}
+
+.design-img {
+ height: auto;
+ width: 70%;
+}
+
+.design-text{
+
+}
+
+.data {
+  flex: 0 0 33.3333%;
+}
+
+.data-img {
+  height: auto;
+  width: 70%;
+}
+
+.data-text {
+
+}
+
+.business {
+  flex: 0 0 33.3333%;
+}
+
+.business-img {
+  height: auto;
+  width: 70%;
+}
+
+.business-text {
+
+}
+
+.marketing {
+  flex: 0 0 33.3333%;
+}
+
+.marketing-img {
+  height: auto;
+  width: 70%;
+}
+
+.marketing-text {
+
 }
 
 
