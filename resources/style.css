@@ -1,11 +1,12 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
 
 html{
-    
+  height: 100%;  
 }
 
 .body {
-    font-family: 'Montserrat'
+  font-family: 'Montserrat';
+  height: 100% 
 }
 
 .header {
@@ -120,6 +121,7 @@ html{
 
 .doesnt-hurt {
   position: relative;
+  height: 100%;
 }
 
 .information-main {
@@ -216,6 +218,7 @@ html{
  font-size: 25px;
  line-height: 8px;
  color: rgba(54, 54, 54, 0.92);
+ 
 }
 .keynote {
   line-height: 1.8;
@@ -260,7 +263,7 @@ html{
  margin-top: 23%;
  text-align: center;
  position: relative;
- flex-wrap: wrap;
+ height: 100%;
  width: 100%;
  
 }
@@ -269,118 +272,172 @@ html{
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 50px;
-  right: 780px;
-  
+  top: 25px;
+  right: 850px;
+  font-family: 'Montserrat';
+  color: rgb(52, 56, 49);
+  font-size: 23px;
 }
 
 .learning-panel {
   display: flex;
-  height: 50%;
-  flex-wrap: wrap;
-  width: 85%;
-  padding-left: 72px;
-  padding-right: 72px;
   margin-top: 8%;
-  row-gap: 32px;
-  column-gap: 0px;
+  flex-direction: column;
+  font-family: 'Montserrat';
+  justify-items: center;
+  padding-bottom: 32px;
+  width: 100%;
+  padding-left: 200px;
+}
+
+.first-panel {
+  display: flex;
+  
+  gap: 32px;
+  column-gap: 32px;
+  width: fit-content;
+  
+}
+
+.second-panel {
+ display: flex;
+ gap: 32px;
+ padding-top: 32px;
+ width: fit-content;
 }
 
 .software {
-  flex: 0 0 33.3333%;
   background-color: white;
-  width: 30%;
-  padding-lef
+  height: auto;
+  text-align: left;
+  width: 28%;
 }
 
 .software-img {
- height: auto;
- width: 70%;
- min-width: 0;
- max-width: 70%;
- 
+  display: flex;
+  height: auto;
+  width: 100%;
 }
 
 .software-text {
-
+ padding-left: 10%;
+ line-height: 1.8;
+ width: 100%;
+ 
 }
 
 .learning-header {
-
+font-weight: bold;
+color: rgb(52, 56, 49);
+font-size: 27px;
 }
 
 .courses {
-
+ line-height: 8px;
+ font-size: large;
+ color: rgb(52, 56, 49);
 }
 
 .learning-copy {
-
+ line-height: -10%;
+ color: rgb(52, 56, 49);
+ font-size: large;
 }
 
 .computer {
-  flex: 0 0 33.3333%;
+  background-color: white;
+  height: auto;
+  text-align: left;
+  width: 28%;
   
 }
 
 .computer-img {
- height: auto;
- width: 70%;
+  display: flex;
+  height: auto;
+  width: 100%;
 }
 
 .computer-text{
-
+  padding-left: 10%;
+  line-height: 1.8;
+  width: 100%;
 }
 
 .design {
-  flex: 0 0 33.3333%;
+  background-color: white;
+  height: auto;
+  text-align: left;
+  width: 28%;
 }
 
 .design-img {
- height: auto;
- width: 70%;
+  display: flex;
+  height: auto;
+  width: 100%;
 }
 
 .design-text{
-
+  padding-left: 10%;
+  line-height: 1.8;
+  width: 100%;
 }
 
 .data {
-  flex: 0 0 33.3333%;
+  background-color: white;
+  height: auto;
+  text-align: left;
+  width: 28%;
 }
 
 .data-img {
+  display: flex;
   height: auto;
-  width: 70%;
+  width: 100%;
 }
 
 .data-text {
-
+  padding-left: 10%;
+  line-height: 1.8;
+  width: 100%;
 }
 
 .business {
-  flex: 0 0 33.3333%;
+  background-color: white;
+  height: auto;
+  text-align: left;
+  width: 28%;
 }
 
 .business-img {
+  display: flex;
   height: auto;
-  width: 70%;
+  width: 100%;
 }
 
 .business-text {
-
+  padding-left: 10%;
+  line-height: 1.8;
+  width: 100%;
 }
 
 .marketing {
-  flex: 0 0 33.3333%;
+  background-color: white;
+  height: auto;
+  text-align: left;
+  width: 28%;
 }
 
 .marketing-img {
+  display: flex;
   height: auto;
-  width: 70%;
+  width: 100%;
 }
 
 .marketing-text {
-
+  padding-left: 10%;
+  line-height: 1.8;
+  width: 100%;
 }
 
 
