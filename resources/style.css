@@ -4,9 +4,11 @@ html{
   height: 100%;  
 }
 
-.body {
+body {
   font-family: 'Montserrat';
-  height: 100% 
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -438,6 +440,138 @@ font-size: 27px;
   padding-left: 10%;
   line-height: 1.8;
   width: 100%;
+}
+
+.thesis {
+ width: 100%;
+ height: 100%;
+ position: relative;
+}
+
+.thesis-header {
+display: flex;
+justify-content: center;
+font-family: 'Montserrat';
+color: rgba(54, 54, 54, 0.92);
+font-weight: bold;
+font-size: 40px;
+margin-top: 32px;
+margin-bottom: 32px;
+}
+
+.video {
+ display: flex;
+ width: 74%;
+ height: auto;
+ margin-left: 24px;
+ margin-right: 24px;
+ margin-bottom: 24px;
+ 
+}
+
+.reimagine {
+  font-family: 'Montserrat';
+  color: rgb(52, 56, 49);
+  font-size: 45px;
+  font-weight: bold;
+  float: left;
+  width: 60%;
+  margin-left: 24px;
+  line-height: 30px;
+  
+}
+
+.reimagine-head {
+  
+}
+
+.reimagine-copy {
+  font-size: 22px;
+  word-break: keep-all;
+  font-weight: 300; 
+  padding-bottom: 32px;
+  width: 100%;
+}
+
+.image-panel2 {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  width: 40%;
+  gap: 16px;
+  position: absolute;
+  top: 237px;
+  right: 0px;
+  font-family: 'Montserrat';
+  float: right;
+}
+
+.fisma {
+ display: flex;
+ background-color:rgba(54, 54, 54, 0.32);
+ 
+}
+
+.fisma-img {
+ float: left;
+ width: 35%;
+ height: auto;
+ padding: 16px 16px 16px 16px;
+}
+
+.fisma-text {
+ float: right;
+ width: 65%;
+ color:rgba(54, 54, 54, 0.92);
+}
+
+.two-header {
+ font-size: 30px;
+ font-weight: bold;
+}
+
+.two-text {
+ font-size: 23px;
+}
+
+.now-then {
+  display: flex;
+}
+
+.now-then-img {
+  float: left;
+  width: 35%;
+  height: auto;
+  padding: 16px 16px 16px 16px;
+}
+
+.now-then-text {
+  float: right;
+  width: 65%;
+  color:rgba(54, 54, 54, 0.92);
+}
+
+footer {
+  display: inline-block;
+  align-content: center;
+  margin-top: auto;
+  color:rgba(54, 54, 54, 0.92);
+  border-top: solid;
+  border-top-width: thin;
+  border-top-color: rgba(54, 54, 54, 0.92);
+  width: 100%;
+}
+
+.footer-left {
+ float: left;
+ margin-top: 16px;
+ margin-right: 24px;
+}
+
+.footer-right {
+ float: right;
+ margin-top: 16px;
+ word-spacing: 20px;
 }
 
 
