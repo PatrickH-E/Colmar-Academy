@@ -13,10 +13,7 @@ body {
 
 
 
- header {
-  
- 
-}
+
 
 .logo {
     display: flex;
@@ -485,9 +482,7 @@ margin-bottom: 32px;
   
 }
 
-.reimagine-head {
-  
-}
+
 
 .reimagine-copy {
   font-size: 22px;
